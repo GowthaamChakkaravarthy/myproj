@@ -28,7 +28,7 @@
     </div>
     <div class="form-group">
       <label>Author</label>
-      <input type="text" name="author" placeholder="Enter author name" class="form-control"  value="{{$post->author}}">
+      <input type="text" name="author" placeholder="Enter author" class="form-control"  value="{{$post->author}}">
     </div>
       <input type="submit" class="btn btn-primary">
       <a href="{{action('PostController@index')}}" class="btn btn-primary">Back</a>
